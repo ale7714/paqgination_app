@@ -43,6 +43,7 @@ PLATFORMS
 DEPENDENCIES
   rack-test
   rake
+  sinatra
   sinatra-activerecord
   sqlite3
 
