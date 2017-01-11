@@ -1,0 +1,7 @@
+ruby_version: ruby-2.3.1
+bundler_version: 1.13.6
+hooks:
+  worker_setup: bundle exec rake db:setup
+  post_worker: bundle exec codeclimate-test-reporter
+tests:
+  - ruby tests/app_test.rb

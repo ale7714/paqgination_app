@@ -3,6 +3,8 @@ ENV['RACK_ENV'] = 'test'
 require './app'
 require 'test/unit'
 require 'rack/test'
+require "simplecov"
+SimpleCov.start
 
 class AppTest < Test::Unit::TestCase
   include Rack::Test::Methods
