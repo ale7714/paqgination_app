@@ -7,4 +7,5 @@ gem "rake"
 
 group :test do
   gem 'rack-test'
+  gem "codeclimate-test-reporter"
 end
